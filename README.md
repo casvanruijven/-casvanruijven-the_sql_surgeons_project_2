@@ -151,3 +151,43 @@ This gym database efficiently manages fitness center operations, including membe
 | request_date      | DATE           | Date when the maintenance request was made  |
 | request_status    | VARCHAR(45)    | Current status of the maintenance request    |
 | completed_date    | DATE           | Date when the maintenance was completed      |
+
+## Queries
+
+| Database information                   | Query 1 | Query 2 | Query 3 | Query 4 | Query 5 |
+|----------------------------------------|---------|---------|---------|---------|---------|
+| **Multiple table join**                |    x    |         |         |    x    |    x    |
+| **Create view**                        |    x    |    x    |         |         |         |
+| **Group by, Aggregation**              |         |    x    |         |         |    x    |
+| **Join**                               |    x    |    x    |    x    |    x    |    x    |
+
+#### 1
+Enables quick identification of active memberships and their pricing, which is crucial for pricing strategy, promotions, or member retention analysis.
+
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture1.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture2.png)
+
+#### 2
+Management can track how well each class is performing based on feedback and average ratings, which is crucial for quality assurance.
+
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture3.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture4.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture5.png)
+
+#### 3
+It directly connects each employee with their supervisor, allowing management to see the reporting structure within the organization. This is crucial for understanding team dynamics and accountability.
+
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture6.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture7.png)
+
+#### 4
+This query is beneficial for management because it provides a clear view of mentor-mentee relationships within the organization.
+
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture8.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture9.png)
+
+#### 5
+This query would help management to see areas that are lacking engagement as well as what classes are in high demand. Management can brainstorm ways to improve efficiency and optimize resources.
+
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture10.png)
+![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture11.png)
