@@ -1,10 +1,10 @@
 # The Sql Surgeons Project 2
 
 Cas van Ruijven [Cas van Ruijven](https://github.com/casvanruijven/the_sql_surgeons_project_2)\
-Nathan Riggle [Nathan Riggle]()\
-Max Weaver [Max Weaver]()\
-Sam Holtzclaw [Sam Holtzclaw]()\
-Jack Beal [Jack Beal]()
+Nathan Riggle [Nathan Riggle](https://github.com/nathanriggle/the_sql_surgeons_project_2)\
+Max Weaver [Max Weaver](https://github.com/MaxWeaver7/the_sql_surgeons_project_2)\
+Sam Holtzclaw [Sam Holtzclaw](https://github.com/holtzclawsam/the_sql_surgeons_project_2)\
+Jack Beal [Jack Beal](https://github.com/Jhbeal03/the_sql_surgeons_project_2)
 
 ## Description
 This gym database efficiently manages fitness center operations, including memberships, payments, classes, equipment, and feedback. It tracks member and employee details, supports mentorships, and organizes class schedules with prerequisites and attendance records. Feedback from members about classes and employees can be logged and responded to. Equipment usage and maintenance are monitored, ensuring availability and safety. The database links memberships, payments, classes, and feedback, providing a streamlined system for managing daily activities. While comprehensive for operational needs, it does not handle advanced business functions like payroll or marketing, focusing instead on improving efficiency and the overall member experience.
@@ -164,30 +164,49 @@ This gym database efficiently manages fitness center operations, including membe
 #### 1
 Enables quick identification of active memberships and their pricing, which is crucial for pricing strategy, promotions, or member retention analysis.
 
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture1.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture2.png)
+![Picture1](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture1.png)
+![Picture2](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture2.png)
 
 #### 2
 Management can track how well each class is performing based on feedback and average ratings, which is crucial for quality assurance.
 
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture3.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture4.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture5.png)
+![Picture3](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture3.png)
+![Picture4](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture4.png)
+![Picture5](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture5.png)
 
 #### 3
 It directly connects each employee with their supervisor, allowing management to see the reporting structure within the organization. This is crucial for understanding team dynamics and accountability.
 
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture6.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture7.png)
+![Picture6](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture6.png)
+![Picture7](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture7.png)
 
 #### 4
 This query is beneficial for management because it provides a clear view of mentor-mentee relationships within the organization.
 
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture8.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture9.png)
+![Picture8](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture8.png)
+![Picture9](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture9.png)
 
 #### 5
 This query would help management to see areas that are lacking engagement as well as what classes are in high demand. Management can brainstorm ways to improve efficiency and optimize resources.
 
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture10.png)
-![Gym Database Model](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture11.png)
+![Picture10](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture10.png)
+![Picture11](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Picture11.png)
+
+## Tableau visualizations
+
+![Tableau](https://github.com/casvanruijven/the_sql_surgeons_project_2/blob/main/Tableau.png)
+
+### Total Revenue by Membership Type:
+
+- Purpose: This chart displays the total revenue generated for each membership type.
+- Relevance: Helps identify which membership tier is the most lucrative, aiding in strategic decisions such as pricing adjustments or marketing focus.
+
+### Total Payments by Membership Type:
+
+- Purpose: Shows the count of payments made by members across different membership types.
+- Relevance: Highlights engagement levels per membership category, offering insight into user behavior and potential opportunities for increased interaction or retention.
+
+### Average Feedback Rating by Membership Type:
+
+- Purpose: Illustrates the average feedback or satisfaction rating for each membership type.
+- Relevance: Indicates member satisfaction and helps prioritize improvements in customer experience for specific membership categories.
